@@ -1,7 +1,7 @@
 var Events = require('backbone-events-standalone'),
 	merge = require('react/lib/merge'),
 	isEqual = require('react/lib/shallowEqual'),
-	isFunction = require('lodash.isFunction');
+	isFunction = require('lodash.isfunction');
 
 
 module.exports = merge(Events, {
